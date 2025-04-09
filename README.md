@@ -25,3 +25,20 @@ cd your-repo</pre>
 <li>Run the script:</li>
 <pre>python otp_verification.py</pre>
 </ol>
+<h1>Code Explanation</h1>
+<ul type = "disc">
+<li>The script generates a random 4-digit OTP</li>
+<li>It creates an email message using the email.mime module.</li>
+<li>It connects to Gmail's SMTP server using TLS encryption.</li>
+<li>The email with the OTP is sent to the recipient.</li>
+<li>The user enters the OTP received via email, and the script validates it.</li>
+</ul>
+<h1>Security Considerations</h1>
+<ul type = "disc">
+<li>Do not hardcode your email password. Use App Passwords instead of your main password.</li>
+<li>Consider using environment variables to store sensitive information.</li>
+<li>Use OAuth2 authentication for better security instead of Less Secure Apps.</li>
+  
+</ul>
+<h1>Disclaimer</h1>
+<p>This script is for educational purposes only. Sending automated emails must comply with email service provider policies.</p>
