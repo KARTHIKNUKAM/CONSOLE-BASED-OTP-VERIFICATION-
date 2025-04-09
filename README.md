@@ -14,4 +14,4 @@ This Python script allows you to send a one-time password (OTP) to a specified e
  <li>A Gmail account with Less Secure Apps acess enabled or an App Password for authentiction</li>
  <li>requred Python libraries installed</li>
 </ul>
-<pre> \`\`\`bash pio install smtplib email \`\`\` </pre>
+<pre>  pio install smtplib email </pre>
