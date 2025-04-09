@@ -15,3 +15,13 @@ This Python script allows you to send a one-time password (OTP) to a specified e
  <li>requred Python libraries installed</li>
 </ul>
 <pre>  pio install smtplib email </pre>
+
+<h1>How to Use </h1>
+<ol type = "1">
+<li>Clone the repository:</li>
+<pre> git clone https://github.com/your-username/your-repo.git
+cd your-repo</pre>
+<li>Open the script and replace your-email@gmail.com and your-app-password in server.login()</li>
+<li>Run the script:</li>
+<pre>python otp_verification.py</pre>
+</ol>
